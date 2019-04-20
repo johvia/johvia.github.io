@@ -57,6 +57,8 @@ function draw() {
 		print("END GAME");
 		background(255,0,50);
 		textAlign(CENTER);
+		noStroke();
+		fill(0);
 		text("Press space or ' ' to restart",width/2,height/2)
 		noLoop();
 	}
