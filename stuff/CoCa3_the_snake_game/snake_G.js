@@ -4,6 +4,8 @@ let food;
 let w;
 let h;
 
+var indi = 0;
+
 function setup(){
 	createCanvas(600,600);
 	w = floor(width / rez);
@@ -53,11 +55,16 @@ function draw() {
 	snake.update();
 	snake.show();
 
+
+
 	if(snake.endGame()) {
+		indi++;
 		fill(255);
 		print("END GAME");
 		background(255,0,50);
-		alert('Press space to restart');
+
+
+
 
 
 
@@ -69,6 +76,8 @@ function draw() {
 
 		noLoop();
 	}
+
+
 
 	fill(255,0,100);
 	rect(food.x,food.y,1,1);
