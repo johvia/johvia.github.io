@@ -58,7 +58,7 @@ function draw() {
 		textAlign(CENTER);
 		noStroke();
 		fill(0);
-		text("Press space or ' ' to restart",width/2,height/2)
+		text('Press space to restart',width/2,height/2)
 		background(255,0,50);
 
 		noLoop();
