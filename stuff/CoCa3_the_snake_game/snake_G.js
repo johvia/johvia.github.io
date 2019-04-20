@@ -54,8 +54,18 @@ function draw() {
 	snake.show();
 
 	if(snake.endGame()) {
+		fill(255);
 		print("END GAME");
 		background(255,0,50);
+		alert('Press space to restart');
+
+
+
+
+		// noStroke();
+		// textSize(24);
+		// fill(0);
+		// text('Press space to restart', width/2,height/2);
 
 		noLoop();
 	}
