@@ -8,7 +8,7 @@ function setup(){
 	createCanvas(600,600);
 	w = floor(width / rez);
 	h = floor(height / rez);
-	frameRate(11);
+	frameRate(20);
 	snake = new Snake();
 
 	foodLocation();

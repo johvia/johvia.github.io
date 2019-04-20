@@ -69,7 +69,8 @@ update(){
   show() {
 
     for (let i = 0; i < this.body.length; i++){
-      noStroke();
+      stroke(0);
+      strokeWeight(0.05);
       fill(255);
       rect(this.body[i].x,this.body[i].y,1,1);
 
