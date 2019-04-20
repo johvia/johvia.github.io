@@ -1,5 +1,5 @@
 let snake;
-let rez = 20;
+let rez = 1;
 let food;
 let w;
 let h;
@@ -10,7 +10,7 @@ function setup(){
 	createCanvas(600,600);
 	w = floor(width / rez);
 	h = floor(height / rez);
-	frameRate(20);
+	frameRate(10);
 	snake = new Snake();
 
 	foodLocation();
@@ -18,21 +18,27 @@ function setup(){
 
 
 function foodLocation() {
-	x = floor(random(w));
-	y = floor(random(h));
+	// x = floor(random(w));
+	let a = random(600);
+	let b = random(600);
+
+	x = lerp(0,round(random(0,29)),20);
+	y = lerp(0,round(random(0,29)),20);
+
+	// y = floor(random(h));
 	food = createVector(x, y)
 }
 
 function keyPressed() {
 	if(keyCode === LEFT_ARROW){
-		snake.setDir(-1,0);
+		snake.setDir(-20,0);
 
 	}else if (keyCode === RIGHT_ARROW) {
-		snake.setDir(1,0);
+		snake.setDir(20,0);
 	}else if (keyCode === DOWN_ARROW) {
-		snake.setDir(0,1);
+		snake.setDir(0,20);
 	}else if (keyCode === UP_ARROW) {
-		snake.setDir(0,-1);
+		snake.setDir(0,-20);
 	}else if (key === ' '){
 		document.location.reload(true);
 	}
@@ -80,5 +86,8 @@ function draw() {
 
 
 	fill(255,0,100);
-	rect(food.x,food.y,1,1);
+	rect(food.x,food.y,20,20);
+
+	// console.log('X: '+food.x+'Y: '+food.y);
+
 }

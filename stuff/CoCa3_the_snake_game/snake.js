@@ -41,7 +41,7 @@ update(){
     let x = this.body[this.body.length-1].x;
     let y = this.body[this.body.length-1].y;
 
-    if (x > w-1 || x < 0 || y > h-1 || y < 0){
+    if (x > w-20 || x < 0 || y > h-20 || y < 0){
       return true;
     }
 
@@ -70,9 +70,9 @@ update(){
 
     for (let i = 0; i < this.body.length; i++){
       stroke(0);
-      strokeWeight(0.05);
-      fill(255);
-      rect(this.body[i].x,this.body[i].y,1,1);
+      strokeWeight(1);
+      fill(150,255,0);
+      rect(this.body[i].x,this.body[i].y,20,20);
 
     }
   }
