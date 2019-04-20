@@ -59,7 +59,7 @@ function draw() {
 		noStroke();
 		fill(0);
 		text('Press space to restart',width/2,height/2)
-		background(255,0,50);
+		// background(255,0,50);
 
 		noLoop();
 	}
