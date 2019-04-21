@@ -1,6 +1,11 @@
 class Snake {
 
   constructor(){
+
+    this.r = random(0,255);
+    this.g = random(0,255);
+    this.b = random(0,255);
+
     this.body = [];
     this.body[0] = createVector(floor(w/2),floor(h/2));
 
@@ -66,12 +71,17 @@ update(){
     }
   }
 
+
+
   show() {
 
+
+
     for (let i = 0; i < this.body.length; i++){
+
       stroke(0);
       strokeWeight(1);
-      fill(150,255,0);
+      fill(this.r,this.g,this.b);
       rect(this.body[i].x,this.body[i].y,20,20);
 
     }

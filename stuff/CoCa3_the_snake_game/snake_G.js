@@ -4,16 +4,24 @@ let food;
 let w;
 let h;
 
+
+
 var indi = 0;
+
+
 
 function setup(){
 	createCanvas(600,600);
 	w = floor(width / rez);
 	h = floor(height / rez);
 	frameRate(10);
+
+
+
 	snake = new Snake();
 
 	foodLocation();
+
 }
 
 
@@ -63,6 +71,7 @@ function draw() {
 
 
 
+
 	if(snake.endGame()) {
 		indi++;
 		fill(255);
@@ -89,5 +98,7 @@ function draw() {
 	rect(food.x,food.y,20,20);
 
 	// console.log('X: '+food.x+'Y: '+food.y);
+
+
 
 }
