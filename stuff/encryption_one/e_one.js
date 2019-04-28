@@ -19,7 +19,7 @@ function crypt() {
 	console.log('crypt :'+tgler);
 
 	if (tgler === true){
-		document.getElementById("message").value = "encrypted";
+		document.getElementById("message").value = "";
 	}else {
 		document.getElementById("message").value = "decrypted";
 	}
