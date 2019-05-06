@@ -11,7 +11,7 @@ var indi = 0;
 
 
 function setup(){
-	createCanvas(window.innerWidth,window.innerHeight);
+	createCanvas(600,600);
 	w = floor(width / rez);
 	h = floor(height / rez);
 	frameRate(10);
