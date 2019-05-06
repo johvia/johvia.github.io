@@ -47,7 +47,7 @@ function keyPressed() {
 		snake.setDir(0,20);
 	}else if (keyCode === 87) {
 		snake.setDir(0,-20);
-	}else if (key === ' '){
+	}else if (key === '1'){
 		document.location.reload(true);
 	}
 
