@@ -4,16 +4,19 @@ let food;
 let w;
 let h;
 
-
+let wdth;
+let hght;
 
 var indi = 0;
 
 
 
 function setup(){
-	createCanvas(600,600);
+	roundbyTwenty();
+	createCanvas(wdth,hght);
 	w = floor(width / rez);
 	h = floor(height / rez);
+
 	frameRate(10);
 
 
@@ -24,6 +27,15 @@ function setup(){
 
 }
 
+function windowResized() {
+	roundbyTwenty();
+  resizeCanvas(wdth, hght);
+}
+
+function roundbyTwenty(){
+	wdth = ((floor(floor(windowWidth / 20) / 10)) * 210) + 0;
+	hght = ((floor(floor(windowHeight / 20) / 10)) * 210) + 0;
+}
 
 function foodLocation() {
 	// x = floor(random(w));
@@ -60,7 +72,7 @@ function keyPressed() {
 // }
 
 function draw() {
-	scale(rez);
+	// scale(rez);
 	background(73);
 
 	if(snake.eat(food)){
