@@ -17,11 +17,11 @@ function preload() {
 }
 
 function windowResized() {
-	resizeCanvas(windowWidth,windowHeight);
+	resizeCanvas(windowWidth-200,windowHeight-200);
 }
 
 function setup() {
-	createCanvas(windowWidth,windowHeight);
+	createCanvas(windowWidth-200,windowHeight-200);
 	txt = document.getElementById('text').value;
 	oldtxt = document.getElementById('text').value;
 	background(51);
