@@ -52,14 +52,14 @@ function foodLocation() {
 }
 
 function keyPressed() {
-	if(keyCode === 65){
+	if(keyCode === 65 && (snake.xdir === 0)){
 		snake.setDir(-20,0);
 
-	}else if (keyCode === 68) {
+	}else if (keyCode === 68 && (snake.xdir === 0)) {
 		snake.setDir(20,0);
-	}else if (keyCode === 83) {
+	}else if (keyCode === 83 && (snake.ydir === 0)) {
 		snake.setDir(0,20);
-	}else if (keyCode === 87) {
+	}else if (keyCode === 87 && (snake.ydir === 0)) {
 		snake.setDir(0,-20);
 	}else if (key === '1'){
 		document.location.reload(true);
