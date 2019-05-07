@@ -43,8 +43,8 @@ function foodLocation() {
 	let b = random(0,hght);
 
 
-	x = lerp(0,round(random(0,29)),20);
-	y = lerp(0,round(random(0,29)),20);
+	x = lerp(0,round(random(0,wdth)),20);
+	y = lerp(0,round(random(0,hght)),20);
 
 	// y = floor(random(h));
 	food = createVector(x, y)
