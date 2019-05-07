@@ -67,7 +67,7 @@ update(){
     let y = this.body[this.body.length-1].y;
     if(x == pos.x && y == pos.y){
       this.grow();
-      if(frmcnt > 15)  {
+      if(frmcnt < 15)  {
         frmcnt++;
         frameRate(frmcnt);
         console.log(frmcnt);
