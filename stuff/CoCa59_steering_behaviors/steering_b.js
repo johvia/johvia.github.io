@@ -16,8 +16,12 @@ function preload() {
 	font = loadFont('assets/hello_day.otf');
 }
 
+function windowResized() {
+	resizeCanvas(windowWidth-200,windowHeight-200);
+}
+
 function setup() {
-	createCanvas(600,300);
+	createCanvas(windowWidth-200,windowHeight-200);
 	txt = document.getElementById('text').value;
 	oldtxt = document.getElementById('text').value;
 	background(51);
