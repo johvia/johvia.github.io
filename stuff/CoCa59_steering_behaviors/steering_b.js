@@ -76,7 +76,7 @@ function makeTxt() {
 function updatePoints(){
 	txt = document.getElementById('text').value;
 	oldtxt = document.getElementById('text').value;
-	points = font.textToPoints(txt, 100, 200, 148);
+	points = font.textToPoints(txt, 100, 200, 168);
 }
 
 function cleanArray(){
