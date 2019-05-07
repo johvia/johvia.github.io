@@ -39,8 +39,9 @@ function roundbyTwenty(){
 
 function foodLocation() {
 	// x = floor(random(w));
-	let a = random(wdth);
-	let b = random(hght);
+	let a = random(0,wdth);
+	let b = random(0,hght);
+
 
 	x = lerp(0,round(random(0,29)),20);
 	y = lerp(0,round(random(0,29)),20);
