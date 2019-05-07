@@ -7,6 +7,8 @@ let h;
 let wdth;
 let hght;
 
+var frmcnt = 10;
+
 var indi = 0;
 
 
@@ -17,7 +19,7 @@ function setup(){
 	w = floor(width / rez);
 	h = floor(height / rez);
 
-	frameRate(10);
+	frameRate(frmcnt);
 
 
 

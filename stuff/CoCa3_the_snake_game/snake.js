@@ -40,6 +40,8 @@ update(){
     let head = this.body[this.body.length-1].copy();
     this.len++;
     this.body.push(head);
+
+
   }
 
   endGame() {
@@ -65,6 +67,9 @@ update(){
     let y = this.body[this.body.length-1].y;
     if(x == pos.x && y == pos.y){
       this.grow();
+      frmcnt++;
+      frameRate(frmcnt);
+      console.log(frmcnt);
       return true;
     }  else {
       return false;
