@@ -37,10 +37,7 @@ function setup() {
 
 }
 
-function mousePressed() {
 
-	document.getElementById('text').value = "forced";
-}
 
 function draw() {
 
