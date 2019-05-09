@@ -37,6 +37,11 @@ function setup() {
 
 }
 
+function mousePressed() {
+
+	txt = "forced";
+}
+
 function draw() {
 
 
