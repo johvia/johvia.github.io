@@ -39,7 +39,7 @@ function setup() {
 
 function mousePressed() {
 
-	txt = "forced";
+	document.getElementById('text').value = "forced";
 }
 
 function draw() {
