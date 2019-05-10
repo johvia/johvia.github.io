@@ -1,0 +1,101 @@
+body{
+	background-image:url("water_background.jpg");
+	background-repeat:no-repeat;
+	
+}
+h1{
+	font-family:"Times New Roman";
+	font-size:34pt;
+	color:white;
+}
+hr{
+	color:white;
+	border:1px white solid;
+}
+a.home{
+	font-family:"Impact";
+	font-size:20pt;
+	color: white;
+}
+a.delete{
+	font-family:"Impact";
+	font-size:20pt;
+	color: red;
+}
+h2{
+	font-family:"Arial Black", sans-serif;
+	font-weight:bold;
+	font-size:16pt;
+	color:white;
+}
+
+.label{
+	text-align:left;
+	width:200px;	
+	font-weight:bold;
+	height:20px;
+	margin-right:5px;
+	color:white;
+	font-size:14pt;
+}
+.letterbtn {
+	position:relative;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 22px;
+  background: #579bc9;
+  padding: 7px 13px 7px 13px;
+  text-decoration: none;
+}
+
+.letterbtn:hover {
+  background: #36a6eb;
+  text-decoration: none;
+}
+.deletebtn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 22px;
+  background: #ff0000;
+  padding: 7px 13px 7px 13px;
+  text-decoration: none;
+}
+
+.deletebtn:hover {
+  background: #d60404;
+  text-decoration: none;
+}
+span.search {
+	color:white;
+	font-family:Georgia;
+	font-size:14pt;
+}
+span.date {
+	color:white;
+	font-family:Georgia;
+	font-size:14pt;
+	position:relative;
+	top:-10%;
+	right:-75%
+}
+iframe.discord {
+	position:absolute;
+	top:49.5%;
+	right:1.5%;
+}
+span.details {
+	color:white;
+	font-family:Georgia;
+	font-size:14pt;
+}
+a.links {
+	color:white;
+	font-family:Georgia;
+	font-size:14pt;
+}

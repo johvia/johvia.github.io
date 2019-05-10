@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reflex Tester</title>
+		<script src="jquery_template.js"></script>
+		
+		<script>
+
+
+(var = variable and const = constant)
+
+Var mouse={x:0,y:0}
+Var current State = Start Up
+Var number of dots=2
+Var number of clicks=0
+Var dot = {x:0,y:0, radius:20}
+Var seconds = 0
+Var highest score = 1000
+Var name = “no name” 
+Var new name = “”
+Var start Time;
+
+
+Const Start Up=0
+Const In Game=1
+Const Game Over=2
+Const Enterkey=13
+Const Escape key=27
+Const Restart Key=82
+Const Retry Key = 82
+	Function setup
+       Run  Place the dot function
+        if someone clicks with their mouse
+        offset the position where they clicked onto the canvas
+           if you clicked on the dot 
+               Run place the dot function
+                Add 1 to number of clicks
+                if  Number of clicks == 1
+                    Start time = get system time
+                If number of clicks == number of dots
+                    Seconds= (get system time – start time)/1000
+					current state = Game Over 
+					If (seconds < hisghest score)
+						hisghest score = seconds 
+						display "Good job you have the best score"
+						newername=prompt "What is the name of this winner?"
+										"Insert Name" + seconds
+						name = newername
+						
+		If somebody clicks a key
+			if(ENTER KEY is pressed && currentState==START_UP)
+					currentState=IN_GAME;
+					hide the range slider
+				else if(RESTART_KEY && currentState == GAME_OVER)
+					refresh the page
+				else if(RETRY_KEY is pressed && currentState == GAME_OVER)
+					currentState=START_UP
+					run function resetAll
+		when the range slider is used
+				numberofdots=value of the range slider
+				hide the range slider			
+	function get system time
+		return new date get time
+		
+	function main game loop
+		requestAnimationFrame(mainGameLoop)
+			if(current State==START_UP)
+				render StartUp Screen
+			else if(current State==IN_GAME)
+				render InGame Screen
+			else if(current State==GAME_OVER)
+				render GameOver Screen
+	function resetAll
+		current State = START_UP;
+		show range slider
+		numberofclicks=0
+		numberofdots=value of range slider
+		newername="0";
+		
+	function Place the dot 
+		dot's x = random number between 0-500
+		dot's y = random number between 0-500
+		
+	function render in game screen
+		colour = light blue
+		draw rectangle (y's location from 0 to 500, x's location from 0 to 500)
+		colour="#292264"
+		beginPath
+		draw a circle (dot's x,dot's y,dot's radius)
+		fill n the dot 
+		colour="black"
+		font="20pixels Comic Sans MS"
+		place Text(numberofclicks, 20, 20)
+		font="20pixels Comic Sans MS"
+		
+	function render StartUp Screen
+		colour="#AABFEB"
+		draw rectangle (y's location from 0 to 500, x's location from 0 to 500)
+		colour="black"
+		font="60px Comic Sans MS"
+		place Text("Reflex test", 20, 100)
+		font="20px Comic Sans MS"
+		place Text("How many dots do you want?", 20, 200)
+		font="20px Comic Sans MS"
+		place Text("Push enter to start", 20, 220)
+		font="20px Comic Sans MS"
+		place Text(rangeslider's value, 170, 240)
+		font="20px Comic Sans MS";
+		place Text("Amount of dots:", 20, 240);
+		font="20px Comic Sans MS";
+		place Text("Highest Score:"+name+":"+highestscore, 20, 260);
+		
+	function renderGameOverScreen()
+		colour="#AABFEB"
+		draw Rectangle(y's location from 0 to 500, x's location from 0 to 500)
+		colour="black"
+		font="60pixels Comic Sans MS"
+		place Text("Test Over", 20, 100)
+		font="20pixels Comic Sans MS"
+		place Text("Press R to refresh page", 20, 200)
+		font="20px Comic Sans MS"
+		place Text("Space to Restart", 20, 225)
+		font="20px Comic Sans MS"
+		place Text("Your score:"+ seconds+ "seconds", 20, 250)
+		
+		
+			
+		</script>
+	</head>
+	<body>
+	
+<canvas id='stageCanvas' width=500 height=500 style='marjin:0px;'+"border:1px solid #000000;"></canvas>
+<div class="slidecontainer">
+  From 2-10, thanks<input id='dotchooser' type="range" min="2" max="10" value="2" class="slider" id="myRange">// this the range slider
+  
+</div>
+<embed src="Penny - Nickel.mp3"" autostart="true" loop="true" hidden="true" \>//this is a song that will play in the background
+		
+	</body>
+	
+</html>
+			
+			
+			
+			
+		

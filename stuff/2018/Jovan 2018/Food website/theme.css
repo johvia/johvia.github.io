@@ -1,0 +1,265 @@
+.contactDiv {
+	width:99.50%;
+	height:40px;
+	border: 2px solid black;
+	display:block;	
+	padding:0px;
+	position:relative;
+	top:0%;
+	right:0%;
+}
+.contactcontentDiv {
+	width:75%;
+	height:40px;
+	border: 2px solid black;
+	display:block;	
+	padding:0px;
+	margin:auto;
+}
+.minipageDiv {
+	width:99%;
+	height:400px;
+	padding:5px;
+}
+.miniBoxeone {
+	display:block;
+	width:32%;
+	height:97%;
+	background-color:#B2C1D8;
+	padding:5px;
+	background-image:url("bottom_of_content.png");
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	cursor: pointer;
+}
+.miniBoxetwo {
+	display:block;
+	width:32%;
+	height:97%;
+	background-color:#B2C1D8;
+	padding:5px;
+	position: relative;
+	top: -99.5%; 
+	right: -67.25%;
+	background-image:url("bottom_of_content.png");
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	cursor: pointer;
+}
+.miniBoxethree {
+	display:block;
+	width:32%;
+	height:97%;
+	background-color:#B2C1D8;
+	padding:5px;
+	position:relative;
+	top: -199%;
+	right: -33.60%;
+	background-image:url("bottom_of_content.png");
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	cursor: pointer;
+}
+.miniboxesPicture {
+	display:block;
+	width:45%;
+	height:45%;
+}
+.miniboxtitleDiv {
+	position:relative;
+	top:-53.30%;
+	right:-46%;
+	height:45%;
+	width:54%;
+	
+}
+.navigationDiv {
+	display:block;
+	background-color: blue;
+	position:absolute;
+    margin-top:-8px;
+	margin-left:-10px;
+	display:block;
+	width:10%;
+	height:15.5%;
+}
+.titleDiv {
+	display:block;
+	background-color:#34d960;
+	width: 90%;
+	height:15.5%;
+	border: 1px solid black;
+	position:absolute;
+	top:0;
+	right:0%;
+	cursor: pointer;
+}
+.paragrapDiv {	
+	margin-left:200px;
+	display:block;
+	background-color:yellow;
+	border:2px solid black;
+	width: 1100px;
+	height: 12000px;
+}
+p.test {
+	font-size: 20pt;
+	float:right;
+}
+p.minitext {
+	font-size:14pt;
+	position:relative;
+	top:-80px;
+	right:-5px;
+}
+p.minitexttwo {
+	font-size:14pt;
+	position:relative;
+	top:-4px;
+	right:0;
+}
+.textboxDivtwo {
+	/* display:block;  */
+	/* background-color:cyan;  */
+	width:100%;
+	height:200px;
+	position:relative;
+	top:-212.5px;
+	right:0;
+	
+}
+.miniboxBottom {
+	position:relative;
+	top:-58.40%;
+	right:1.25%;
+	width:102.45%;
+	height:5%;
+}
+.pizzacontentBox {
+	display:block;
+	background-color: #B2C1D8;
+	background-image:url("bottom_of_big_content.png");
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	width:75%;
+	height:500px;
+	position:relative;
+	top:50%;
+	right:-12.5%;
+}
+.contentTitle {
+	width:100%;
+	height:105px;
+	background-color:#747372;
+}
+.contentImage {
+	border:3px black solid;
+	width:480px;
+	height:319px;
+	position:relative;
+	right:-2%;
+	top:3%;
+}
+.pizzacontenttitleDiv {
+	display:block;
+	background-color: blue;
+}
+.bannerPicture {
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0%;
+	right:0%;
+}
+.homeexplainDiv {
+	display:block;
+	background-color:#B2C1D8;
+	border:2px black solid;
+	width:75%;
+	height: 60px;
+	margin:auto;
+	padding:0.20%;
+}
+.contenttopDiv {
+	width:47%;
+	height:319px;
+	position:relative;
+	top:-330px;
+	right:-51.75%;
+}
+p.content {
+	font-size:15.99pt;
+	text-align:left;
+}
+p.homeexplain {
+	position:relative;
+	top:-10%;
+	right:0%;
+	text-align:center;
+	font-size:13pt;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	background-color: #B2C1D8;
+	border: 1px solid;
+	border-color: black;
+}
+
+li {
+	text-align: center;
+	border-bottom: 1px solid;
+	border-color: black;
+}
+
+li a {
+	font-size:  11pt;
+    display: block;
+    color: black;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color:#8288A7;
+	color: white;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+body {
+	background-color: #DCD6D6;
+}
+H1 {
+	position:relative;
+	top:-125%;
+	text-align:center;
+	font-family: 'Carter One', cursive;
+	font-size:34pt;
+}
+H2 {
+	font-size:28pt;
+	position:relative;
+	top:-89%;
+	right:0px;
+	color:black;
+	text-align:center;
+	
+	
+}
+H3 {
+	font-size: 24pt;
+    font-family: "Times New Roman", Times, serif;
+	text-align:center;
+	position:relative;
+	top:-2.5%;
+	right:0;
+}
+H4 {
+	font-size: 64pt;
+	text-align:center;
+}

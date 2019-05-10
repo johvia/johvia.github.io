@@ -23,7 +23,7 @@ Vehicle.prototype.behaviors = function() {
 
 
   arrive.mult(1);
-  flee.mult(1.5);
+  flee.mult(2);
 
 
 

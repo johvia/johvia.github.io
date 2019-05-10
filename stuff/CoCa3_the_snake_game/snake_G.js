@@ -35,8 +35,8 @@ function windowResized() {
 }
 
 function roundbyTwenty(){
-	wdth = ((floor(floor(windowWidth / 20) / 10)) * 200) + 0;
-	hght = ((floor(floor(windowHeight / 20) / 10)) * 200) + 0;
+	wdth = ((floor(floor(windowWidth / 20) / 10)) * 200);
+	hght = ((floor(floor(windowHeight / 20) / 10)) * 200);
 }
 
 function foodLocation() {

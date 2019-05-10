@@ -1,0 +1,190 @@
+body {
+	background-image:url("archery.jpg");
+	background-repeat:repeat-y;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size:38pt;
+	color:white;
+	text-align:center;
+	position:relative;
+	top:10%;
+}
+input[type=text] {
+	border:1px solid grey;
+	border-radius:3px;
+	position:relative;
+	right:-1px;
+	top:-32px;
+}
+input[type=submit] {
+	border:1px solid grey;
+	border-radius:3px;
+	position:relative;
+	right:-1px;
+	top:-57px;
+	background-color:white;
+}
+textarea {
+	width:1040px;
+	height:140px;
+	border:1px solid darkgrey;
+	border-radius:3px;
+	position:relative;
+	top:-69px;
+	right:0;
+	font-family: 'Quicksand', sans-serif
+}
+h4 {
+	font-size:13pt;
+	position:relative;
+	top:-25px;
+	right:0;
+}
+.titleDiv {
+	background-image:url("archery_banner.jpg");
+	background-position:center;
+	width:1053.1px;
+	height:82.36px;
+	margin: auto;
+	border-radius: 7.5px 7.5px 0px 0px;
+	position:relative;
+	top:-15px;
+	padding-right:10px;
+}
+.navigationDiv {
+	display:block;
+	width:1063px;
+	height:10%;
+	margin: auto;
+	position:relative;
+	top:-15px;
+	right:-7px;
+	padding-right:15px;
+}
+.mainbodyDiv {
+	background-color:#114F7F;
+	width:1053.1px;
+	height:400px;
+	margin:auto;
+	border-radius: 0px 0px 7.5px 7.5px;
+	position:relative;
+	top:-33px;
+	padding-right:10px;
+}
+
+img.bodyimage {
+	display:block;
+	margin-left:1%;
+	margin-top:1%;
+	position:relative;
+	top:0%;
+	right:0%;
+	float:left;
+	width:512px;
+	height:340px;
+	border: 2px solid black;
+	background-image:url("archery_image.jpg");
+	border-radius: 5px 5px 5px 5px;
+}
+p.name {
+	font-size:14pt;
+	position:relative;
+	top:-17px;
+	right:-2px;
+	color:white;
+}
+p.Comment {
+	font-size:14pt;
+	position:relative;
+	top:-17px;
+	right:-2px;
+	color:white;
+}
+div.commentname {
+	font-size:14pt;
+	color:white;
+}
+.commenttime {
+	color:lightgrey;
+	text-align:right;
+	position:relative;
+	top:10px;
+	right:0;
+}
+div.submitcomment {
+	display:block;
+	background-color:#114F7F;
+	width:1045px;
+	height:270px;
+	position:relative;
+	top:-12px;
+	right:0px;
+	margin:auto;
+	padding:10px;
+	border-radius:7.5px 7.5px 7.5px 7.5px;
+}
+.comment {
+	display:block;
+	background-color:#239DFF;
+	width:1045px;
+	margin:auto;
+	border-radius:7.5px 7.5px 7.5px 7.5px;
+	padding:10px;
+	padding-bottom:20px;
+	position:relative;
+	top:-40px;
+	right:10px;
+}
+p.commenttext {
+	position:relative;
+	top:-10px;
+	right:-0.5%;
+	color:lightgrey;
+	word-wrap: break-word;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#2196F3;
+	
+}
+p.commentTitle {
+	font-size:14pt;
+	color:white;
+	position:relative;
+	top:-60px;
+	right:0;
+}
+p.mainbody {
+	font-size:13.5pt;
+	text-align:left;
+	position:relative;
+	top:5px;
+	right:-4px;
+	padding: 5px 2px;
+	color:lightgrey;
+	word-wrap: break-word;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	font-family: 'Quicksand', sans-serif;
+	font-size:11pt;
+	display: block;
+	color: white;
+	text-align: center;
+	/* padding: 14px 16px; */
+	padding: 9px 11px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color:#1F8EE5;
+}

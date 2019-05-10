@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reflex Tester</title>
+		<script src="jquery_template.js"></script>
+		
+		<script>
+		//global variables and constants
+		var mouse={x:0,y:0};
+		const START_UP=0;
+		const IN_GAME=1;
+		const GAME_OVER=2;
+		var currentState=START_UP; //when you open the html it displays the right screen
+		const ENTER_KEY=13; // this is for when the person presses enter to go into game
+		const ESCAPE_KEY=27; //this is here for when I need to test something with the prgram
+		const RESTART_KEY=82; // this for when the person is going to refresh the page to restart it from the very begining
+		//const END_KEY=69; 
+		const RETRY_KEY=32; // this is for when the person wants to beat their high score by retrying
+		var dot={x:0,y:0,radius:20}; // the dot that is being clicked on
+		var numberofdots=2; //this can be changed by the range slider 
+		var numberofclicks=0; // this is for when the person has clicked the amount of dots they chose, so the test can finish
+		var seconds = 0; // this is for your result of your test
+		var highestscore = 1000; //this can be changed if there is a better score
+		var name = "No name"; //this is for the hisghest score
+		var newername = ""; // this is for when the peron beats the highestscore
+		var startTime; //this is for the timer
+		function setup(){
+			placeDot();
+			$('#stageCanvas').bind('mousedown', function (event) { //this listens when you click
+				
+				mouse.x = event.offsetX; // these are for fixing colision problems
+				mouse.y = event.offsetY;
+				console.log("mouse down " + mouse.x + " " + mouse.y);
+				var distance = Math.hypot(mouse.x - dot.x, mouse.y-dot.y);
+				console.log(distance + " " + dot.radius);
+				if(distance < dot.radius && currentState == IN_GAME){ 
+						placeDot();
+						numberofclicks+=1;
+						if(numberofclicks==1){
+							startTime = getSystemTime();
+			
+						}
+						console.log(numberofclicks  + " " + numberofdots);
+						if(numberofclicks == numberofdots){ //this for when the person has finsihed to display their score
+							seconds = (getSystemTime() - startTime)/1000;
+							
+							
+							console.log("GGG " + startTime + " " + seconds);
+							currentState=GAME_OVER;
+							if (seconds < highestscore){ //this is for when someone beats the highest score
+								highestscore = seconds;
+								alert("Good job mate you've got the best score!");
+								newername=prompt ("What is the name of this winner")
+												"Insert name"+seconds;
+								name=newername;
+							}
+						} 
+						
+				}
+				if(event.which == IN_GAME && numberofclicks >= $('#dotchooser').val()){ //nothing
+					
+					
+				}
+
+
+				event.preventDefault();
+				return false;
+			});
+			
+				
+				
+
+			$(document).keydown(function(event){//this listen for when keys are pressed and what it should depending on the key state
+				if(event.which == ENTER_KEY && currentState==START_UP){
+					currentState=IN_GAME;
+					
+					
+					$('.slidecontainer').hide();
+				}else if(event.which == ESCAPE_KEY && currentState == GAME_OVER){
+					currentState=START_UP;
+				}else if(event.which == RESTART_KEY && currentState == GAME_OVER){
+					location.reload();
+				}else if(event.which == RETRY_KEY && currentState == GAME_OVER){
+					currentState=START_UP
+					resetAll();
+				}
+
+				
+			});
+			$("#dotchooser").bind("change",function(event){//this is hides the range slider after use
+				numberofdots=$('#dotchooser').val();
+					$('.slidecontainer').hide();
+				
+			});
+			
+			
+			
+			
+		}
+		function getSystemTime(){ //this helps me get my time for the reflex tester
+				return new Date().getTime();
+		}
+		function mainGameLoop(){ // this determines which screen to render
+			requestAnimationFrame(mainGameLoop);
+			if(currentState==START_UP){
+				renderStartUpScreen();
+			}else if(currentState==IN_GAME){
+				renderInGameScreen();
+			}else if(currentState==GAME_OVER){
+				renderGameOverScreen();
+			}
+			
+		}
+		
+		function resetAll(){//this resets the tester when someone wants to retry
+			currentState = START_UP;
+			$('.slidecontainer').show();
+			numberofclicks=0;
+			numberofdots=$('#dotchooser').val();
+			newername="0";
+		}
+		
+		
+			
+				
+
+
+		function placeDot(){//this places the dot in a random spot
+			dot.x=getRandomInt(40,400);
+			dot.y=getRandomInt(40,400);
+			
+			
+		}
+		
+		dot.x=getRandomInt(40,400);
+		dot.y=getRandomInt(40,400);
+		
+		function getSystemTime(){//I have another function that does this already 
+			return new Date().getTime();
+		}
+		
+		
+		
+		function renderInGameScreen(){//this shows what I need it to show when someone is in the game 
+			ctx.fillStyle="#AABFEB";
+			ctx.fillRect(0,0,canvas.width, canvas.height);
+			ctx.fillStyle="#292264";
+			ctx.beginPath();
+			ctx.arc(dot.x,dot.y,dot.radius,0,2 * Math.PI, false);
+			ctx.fill();
+			ctx.fillStyle="black";
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText(numberofclicks, 20, 20);
+			ctx.font="20px Comic Sans MS";
+		
+			
+		}
+		
+		function renderStartUpScreen(){// this is for when the person starts up the program
+			//This is where you 'draw' onto the canvas
+			//This function is called in the mainGameLoop function
+			ctx.fillStyle="#AABFEB";
+			ctx.fillRect(0,0,canvas.width, canvas.height);
+			ctx.fillStyle="black";
+			ctx.font="60px Comic Sans MS";
+			ctx.fillText("Reflex test", 20, 100);
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText("How many dots do you want?", 20, 200);
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText("Push enter to start", 20, 220);
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText($('#dotchooser').val(), 170, 240);
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText("Amount of dots:", 20, 240);
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText("Highest Score:"+name+":"+highestscore, 20, 260);
+		}
+
+
+		
+		function renderGameOverScreen(){//this is for when the person finishes the test
+			ctx.fillStyle="#AABFEB";
+			ctx.fillRect(0,0,canvas.width, canvas.height);
+			ctx.fillStyle="black";
+			ctx.font="60px Comic Sans MS";
+			ctx.fillText("Test Over", 20, 100);
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText("Press R to refresh page", 20, 200);
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText("Space to Restart", 20, 225);
+			ctx.font="20px Comic Sans MS";
+			ctx.fillText("Your score:"+ seconds+ "seconds", 20, 250);
+		}
+		
+	
+		</script>
+	</head>
+	<body>
+	
+<canvas id='stageCanvas' width=500 height=500 style='marjin:0px;'+"border:1px solid #000000;"></canvas>
+<div class="slidecontainer">
+  From 2-10, thanks<input id='dotchooser' type="range" min="2" max="10" value="2" class="slider" id="myRange">
+  
+</div>
+																						
+	</body>
+	
+</html>
