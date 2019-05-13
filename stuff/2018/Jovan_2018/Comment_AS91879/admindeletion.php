@@ -1,6 +1,6 @@
 <?php
-require_once('DBConnection.php');
-require("check_logged_in.php");
+//require_once('DBConnection.php');
+//require("check_logged_in.php");
 
 echo <<<ENDOFHTML
 	<!DOCTYPE html> 
