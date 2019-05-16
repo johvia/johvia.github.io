@@ -1,5 +1,5 @@
 let angle = 0;
-let w = 0.5;
+let w = 20;
 let ma;
 let maxD;
 
