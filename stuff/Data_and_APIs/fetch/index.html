@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>One</title>
+</head>
+
+<body>
+  <img src="" id="moon" width=600 height=400>
+
+  <script>
+    console.log('going to fetch moon');
+
+    catchMoon().then(response => {
+      console.log('moon fetched');
+    }).catch(error => {
+      console.error(error);
+    });
+
+    async function catchMoon() {
+      const response = await fetch('moon.jpg');
+      const blob = await response.blob();
+      document.getElementById('moon').src = URL.createObjectURL(blob);
+    }
+
+
+  //  fetch('moon.jpg').then(response => {
+  //    console.log(response);
+  //    return response.blob();
+  //  }).then(blob => {
+  //    console.log(blob);
+  //    document.getElementById('moon').src = URL.createObjectURL(blob);
+  //  }).catch(error => {
+  //    console.log('error!');
+  //    console.error(error);
+  //  });
+
+
+
+
+
+  </script>
+</body>
+
+</html>
