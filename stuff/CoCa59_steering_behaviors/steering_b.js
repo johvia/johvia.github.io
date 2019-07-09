@@ -13,7 +13,7 @@ var pt = [];
 var vehicle;
 
 function preload() {
-	font = loadFont('assets/hello_day.otf');
+	font = loadFont('assets/NixieOne.ttf');
 }
 
 function windowResized() {
