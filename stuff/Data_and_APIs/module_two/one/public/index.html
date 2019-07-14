@@ -7,8 +7,28 @@
 </head>
 
 <body>
+  <script type="text/javascript">
+    if ('geolocation' in navigator) {
+      console.log('geolocation available');
+      navigator.geolocation.getCurrentPosition(function(position) {
+        //console.log("latitude:" + position.coords.latitude)
+        //console.log("longitude:" + position.coords.longitude);
+        const lat = position.coords.latitude;
+        const lon = position.coords.longitude;
+        document.getElementById('lat').textContent = lat;
+        document.getElementById('lon').textContent = lon;
+        //console.log(position);
+      });
+    } else {
+      console.log('geolocation available');
+    }
+  </script>
   <h1>Data Selfie App</h1>
-  <p>Hello!</p>
+  <p>
+    latitude: <span id='lat'></span>&deg;
+    <br>
+    longitude: <span id='lon'></span>&deg;
+  </p>
 </body>
 
 </html>
