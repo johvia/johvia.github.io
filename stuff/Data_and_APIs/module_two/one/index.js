@@ -3,7 +3,7 @@ const dataStore = require('nedb');
 
 const app = express();
 
-app.listen(4040, () => console.log('listening at port 4040'));
+app.listen(11000, () => console.log('listening at port 11000'));
 app.use(express.static('public'));
 app.use(express.json({
   limit: '1mb'
@@ -18,10 +18,16 @@ app.post('/api', function(request, response) {
   const timestamp = Date.now();
   data.timestamp = timestamp;
   database.insert(data);
-  response.json({
-    status: 'succes',
-    timestamp: data.timestamp,
-    latitude: data.lat,
-    longitude: data.lon
+  response.json(data);
+});
+
+app.get('/api', (request, response) => {
+  database.find({}, (err, data) => {
+    if (err) {
+      response.end();
+      return;
+    }
+    response.json(data);
   });
+
 });

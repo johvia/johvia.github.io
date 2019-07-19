@@ -14,13 +14,15 @@
         navigator.geolocation.getCurrentPosition(async function(position) {
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
+          const tex = document.getElementById('text').value;
           document.getElementById('lat').textContent = lat;
           document.getElementById('lon').textContent = lon;
           //console.log(position);
 
           const data = {
             lat,
-            lon
+            lon,
+            tex
           };
 
           const options = {
@@ -52,7 +54,9 @@
     <br>
     longitude: <span id='lon'></span>&deg;
   </p>
+  <input type='text' id='text'><br>
   <button onclick="sendData()">Send Data</button>
+  <a href='all.html'>All Data</a>
 </body>
 
 </html>
