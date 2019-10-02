@@ -30,3 +30,10 @@ a saving system
 Notes
 def going to use objects
 
+/////
+Well that was a f*ing lie.
+
+I used Jquery instead though I do still use objects for my enemies. Player doesn't have stats but has an inventory.
+Why would I think of an item generator. I would need sprites for them.
+no Mechanics or physics in it.
+IT has become so depressing because I can't do my own thing without being bothered.
