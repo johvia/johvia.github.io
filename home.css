@@ -24,4 +24,5 @@ div.linkContainer {
   height:5%;
   border-radius:15px;
   padding-bottom: 4px;
+  display: inline-block;
 }
