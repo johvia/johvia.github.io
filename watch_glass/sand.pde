@@ -15,8 +15,9 @@ class Sand {
     b = floor(random(0,255));
   }
   void show() {
-    stroke(0);
-    strokeWeight(1);
+    //stroke(0);
+    //strokeWeight(1);
+    noStroke();
     fill(r,g,b);
     circle(pos.x, pos.y, radius);
   }

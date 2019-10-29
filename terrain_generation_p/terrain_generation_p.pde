@@ -6,7 +6,7 @@ float[][] terrain;
 float flying = 0;
 float rot = 0.2;
 void setup() {
-  size(1200, 600, P3D); 
+     size(1200, 600, P3D); 
   colorMode(HSB);
   cols = w/scl;
   rows = h/scl;

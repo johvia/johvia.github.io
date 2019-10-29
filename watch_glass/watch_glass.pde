@@ -1,10 +1,10 @@
 ArrayList<Sand> grains;
 
 int amnt = 100;
-int r = 20;
+int r = 10;
 void setup() {
-  //size(600,600, P3D);
-  fullScreen();
+  size(600,600, P3D);
+  //fullScreen();
   grains = new ArrayList<Sand>();
   for(int i = 0; i < amnt; i++) {
     grains.add(new Sand(random(0,width),random(0,height), random(0,height),r));
@@ -51,8 +51,8 @@ void mouseWheel(MouseEvent event) {
     if(amnt < 1) {
       amnt = 1; 
     }
-    if(amnt > 1000) {
-      amnt = 1000; 
+    if(amnt > 10000) {
+      amnt = 10000; 
     }
   
 }
