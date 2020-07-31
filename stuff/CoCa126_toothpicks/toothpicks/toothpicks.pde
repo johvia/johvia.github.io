@@ -17,7 +17,7 @@ void setup() {
   picks = new ArrayList<Toothpick>();
   picks.add(new Toothpick(0, 0, 1));
   //noLoop();
-  //frameRate(2);
+  frameRate(2);
 }
 
 //void mousePressed() {

@@ -1,6 +1,6 @@
 ArrayList<Sand> grains;
 
-int amnt = 100;
+int amnt = 1000;
 int r = 10;
 void setup() {
   size(600,600, P3D);
