@@ -1,0 +1,225 @@
+[17:04:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@4e6b0e2[id=<null>,name=Marlxn,properties={},legacy=false] (/69.138.27.170:56590) lost connection: Disconnected
+[17:04:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@a71c234[id=<null>,name=Marlxn,properties={},legacy=false] (/69.138.27.170:56602) lost connection: Disconnected
+[17:05:08] [User Authenticator #156/INFO]: UUID of player Marlxn is f36e460c-7742-4d18-b62f-cf5819d4fbbf
+[17:05:09] [Server thread/INFO]: Marlxn[/69.138.27.170:56697] logged in with entity id 958950 at (630.6899479776196, 77.0, -446.50412085402803)
+[17:05:09] [Server thread/INFO]: Marlxn joined the game
+[17:08:28] [User Authenticator #157/INFO]: UUID of player Kingz78 is 3e8fde9c-5d94-4fe1-96a2-a7694918ce4d
+[17:08:28] [Server thread/INFO]: Kingz78[/114.23.120.45:52463] logged in with entity id 959682 at (721.3163905121121, 85.0, 96.26358461555526)
+[17:08:28] [Server thread/INFO]: Kingz78 joined the game
+[17:08:34] [Server thread/INFO]: <Marlxn> yok
+[17:08:39] [Server thread/INFO]: <Marlxn> guess whoas durnk againnn
+[17:08:43] [Server thread/INFO]: <Kingz78> ahahahahahah
+[17:09:03] [Server thread/INFO]: <Marlxn> yp do u lielk sam
+[17:09:07] [Server thread/INFO]: <Kingz78> huh?
+[17:09:15] [Server thread/INFO]: <Marlxn> do ulike sam
+[17:09:23] [Server thread/INFO]: <Kingz78> in what way?
+[17:09:32] [Server thread/INFO]: <Marlxn> k0re thjan frienmds
+[17:09:59] [Server thread/INFO]: <Marlxn> silnce-=hesitation=yues
+[17:10:06] [Server thread/INFO]: <Kingz78> bruh
+[17:10:13] [Server thread/INFO]: <Marlxn> lamo kinda obv
+[17:10:21] [Server thread/INFO]: <Kingz78> my dog jumping on my keyboard
+[17:10:24] [Server thread/INFO]: <Kingz78> bruuuuh
+[17:10:27] [Server thread/INFO]: <Marlxn> uhh huh
+[17:10:35] [Server thread/INFO]: <Kingz78> will send pic in disc
+[17:10:37] [Server thread/INFO]: <Kingz78> rn
+[17:10:49] [Server thread/INFO]: <Marlxn> otally
+[17:10:51] [Server thread/INFO]: <Marlxn> dw
+[17:10:56] [Server thread/INFO]: <Kingz78> kk
+[17:11:07] [Server thread/INFO]: <Marlxn> i wont sayu anythyng
+[17:11:52] [Server thread/INFO]: <Kingz78> okie?
+[17:12:02] [Server thread/INFO]: <Kingz78> what would there be to say?
+[17:13:58] [Server thread/INFO]: <Kingz78> cool?
+[17:14:04] [Server thread/INFO]: <Marlxn> ooops
+[17:14:06] [Server thread/INFO]: <Marlxn> sorry
+[17:14:10] [Server thread/INFO]: <Marlxn> lmao didnt see
+[17:14:20] [Server thread/INFO]: <Marlxn> tis okay thr heart wants what iust wants
+[17:14:29] [Server thread/INFO]: <Kingz78> ok?
+[17:16:26] [Server thread/INFO]: <Kingz78> you do realize i've only known sam for like 2 weeks ish?
+[17:16:36] [Server thread/INFO]: <Marlxn> oh nho sou a big simp
+[17:16:46] [Server thread/INFO]: <Kingz78> how?
+[17:17:24] [Server thread/INFO]: <Marlxn> uy rrelaly tryna tellme u not/
+[17:17:25] [Server thread/INFO]: <Marlxn> ?
+[17:17:27] [Server thread/INFO]: <Marlxn> *
+[17:17:45] [Server thread/INFO]: <Kingz78> im not........
+[17:17:59] [Server thread/INFO]: <Kingz78> it's just called being nice?
+[17:18:02] [Server thread/INFO]: <Marlxn> okeio dokie artichokie ill take u rword for it
+[17:18:30] [Server thread/INFO]: Marlxn was blown up by Creeper
+[17:18:34] [Server thread/INFO]: <Marlxn> FIDSFOLJSALOKFL
+[17:18:34] [Server thread/INFO]: <Kingz78> bruh
+[17:20:57] [Server thread/INFO]: <Kingz78> well im off for a bit, enjoy day dreaming about sam, lmao
+[17:21:06] [Server thread/INFO]: <Marlxn> LMAOOOOOOOOOOO OKAYT
+[17:21:08] [Server thread/INFO]: Kingz78 lost connection: Disconnected
+[17:21:08] [Server thread/INFO]: Kingz78 left the game
+[17:29:44] [Server thread/INFO]: <Marlxn> LMAOOOOOOOOOOO OKAYT
+[17:38:03] [User Authenticator #158/INFO]: UUID of player Kingz78 is 3e8fde9c-5d94-4fe1-96a2-a7694918ce4d
+[17:38:03] [Server thread/INFO]: Kingz78[/114.23.120.45:52603] logged in with entity id 964609 at (721.8460313632562, 85.0, 98.54517009736192)
+[17:38:03] [Server thread/INFO]: Kingz78 joined the game
+[17:43:27] [Server thread/INFO]: <Marlxn> heyyyyyyyy
+[17:44:25] [Server thread/INFO]: <Marlxn> y u ignore me :(
+[17:47:03] [Server thread/INFO]: <Marlxn> ujelloooooooooo
+[17:47:08] [Server thread/INFO]: <Kingz78> uh what
+[17:47:09] [Server thread/INFO]: <Kingz78> sorry
+[17:47:12] [Server thread/INFO]: <Kingz78> didn't see msg's
+[17:47:14] [Server thread/INFO]: <Marlxn> sday hi back ;-;
+[17:47:16] [Server thread/INFO]: <Kingz78> hi
+[17:47:20] [Server thread/INFO]: <Kingz78> whats up
+[17:47:23] [Server thread/INFO]: <Marlxn> nm wbu
+[17:47:28] [Server thread/INFO]: <Kingz78> nm either
+[17:47:36] [Server thread/INFO]: <Kingz78> what am i jelous about?
+[17:47:39] [Server thread/INFO]: <Marlxn> wwyd if we accideltny kissed
+[17:47:42] [Server thread/INFO]: <Marlxn> waits what
+[17:47:55] [Server thread/INFO]: <Kingz78> who in the what now
+[17:48:51] [Server thread/INFO]: <Kingz78> what r u on about
+[17:48:57] [Server thread/INFO]: <Marlxn> what r y o0n about
+[17:49:01] [Server thread/INFO]: <Kingz78> idfk
+[17:51:09] [Server thread/INFO]: <Marlxn> asnwer myqw uesiton
+[17:51:15] [Server thread/INFO]: <Kingz78> what the question m8
+[17:53:06] [Server thread/INFO]: <Marlxn> wwyd wif we acdeintly kissed
+[17:53:13] [Server thread/INFO]: <Kingz78> who? u and me? yikes
+[17:53:18] [Server thread/INFO]: <Marlxn> o.
+[17:53:21] [Server thread/INFO]: <Marlxn> no one hmu.
+[17:53:41] [Server thread/INFO]: <Kingz78> sorry but i can't understand what ur trying to say
+[17:53:47] [Server thread/INFO]: <Marlxn> ,
+[17:55:06] [Server thread/INFO]: <Marlxn> cani have spruece wood
+[17:55:12] [Server thread/INFO]: <Kingz78> come here
+[17:55:27] [Server thread/INFO]: <Kingz78> come onnnn
+[17:55:30] [Server thread/INFO]: <Marlxn> no u
+[17:56:05] [Server thread/INFO]: <Kingz78> no u
+[17:56:15] [Server thread/INFO]: <Marlxn> wya
+[17:56:29] [Server thread/INFO]: <Kingz78> hurry up if u want spruce wood
+[17:56:35] [Server thread/INFO]: <Marlxn> wya
+[17:56:37] [Server thread/INFO]: <Kingz78> got 4 stacks for u
+[17:56:41] [Server thread/INFO]: <Kingz78> im at home
+[17:57:08] [Server thread/INFO]: <Marlxn> thx b
+[17:57:09] [Server thread/INFO]: <Kingz78> allg
+[17:57:10] [Server thread/INFO]: <Marlxn> b
+[17:57:53] [Server thread/INFO]: <Kingz78> if sam asks about "the question", just say it
+[17:58:07] [Server thread/INFO]: <Kingz78> please ^
+[17:58:40] [Server thread/INFO]: <Marlxn> okie
+[17:59:46] [Server thread/INFO]: <Kingz78> thx lol :)
+[18:02:23] [Server thread/INFO]: <Kingz78> ngl, you saved me so much time from me having to tell her lmao. thx m8
+[18:03:00] [Server thread/INFO]: <Marlxn> klmao odw bro, just pormise me next time ull be a oman instaed of a cringe lil 7ht grader
+[18:03:12] [Server thread/INFO]: <Kingz78> ? oh what
+[18:03:20] [Server thread/INFO]: <Kingz78> im in year 12?
+[18:03:38] [Server thread/INFO]: <Kingz78> im just hofficly socially awkward lmao
+[18:04:08] [Server thread/INFO]: <Marlxn> welkl uu went about its ina realy cringer way
+[18:04:14] [Server thread/INFO]: <Kingz78> indeed
+[18:05:53] [Server thread/INFO]: <Marlxn> ikm just glasdd we acme to aconsuses
+[18:06:16] [Server thread/INFO]: <Kingz78> conclusion?
+[18:06:27] [Server thread/INFO]: <Marlxn> ur cringe
+[18:06:34] [Server thread/INFO]: <Kingz78> ok cool :)
+[18:09:10] [Server thread/INFO]: <Marlxn> nji building ur 100BC spruce only htu necxt to hers LUL
+[18:09:22] [Server thread/INFO]: <Kingz78> ???
+[18:09:24] [Server thread/INFO]: <Kingz78> what?
+[18:09:36] [Server thread/INFO]: <Marlxn> stoip pplayung duimnb nowits just nanoying
+[18:09:45] [Server thread/INFO]: <Kingz78> bruh tf r u saying m8
+[18:10:01] [Server thread/INFO]: <Marlxn> u have brian?
+[18:10:11] [Server thread/INFO]: <Kingz78> i know someone called brian?
+[18:10:13] [Server thread/INFO]: <Kingz78> ahhahahahaah
+[18:10:59] [Server thread/INFO]: <Marlxn> RIP Kingz78 brain. 2002-2002/ gopne but snot fogoten
+[18:11:13] [Server thread/INFO]: <Kingz78> okie cool
+[18:11:32] [Server thread/INFO]: <Marlxn> fi u want a chance just be straight up
+[18:11:38] [Server thread/INFO]: <Marlxn> dontbeat aroudn the busgh
+[18:11:49] [Server thread/INFO]: <Marlxn> esopecially ewhn its so obvious
+[18:12:16] [Server thread/INFO]: <Kingz78> m8, i ain't gonna take dating advice from a drunk guy playing minecraft
+[18:12:50] [Server thread/INFO]: <Marlxn> m8 rhw drunk guy poayingf mc understands girsl better anb not how to be cinge and awkward than u
+[18:13:13] [Server thread/INFO]: <Kingz78> yea, maybe bc im socially awkward like i already said?
+[18:13:18] [Server thread/INFO]: <Kingz78> it's just who i am
+[18:13:32] [Server thread/INFO]: <Marlxn> yeau ur alaready aat a disadvntage just odnt play dumb
+[18:13:38] [Server thread/INFO]: <Kingz78> ........
+[18:14:04] [Server thread/INFO]: <Marlxn> jkstu tryna help with touchg love
+[18:14:29] [Server thread/INFO]: <Kingz78> ....
+[18:14:43] [Server thread/INFO]: <Kingz78> think ima just die
+[18:14:47] [Server thread/INFO]: <Marlxn> POGGERS
+[18:15:53] [Server thread/INFO]: <Marlxn> DW bro ong we goanan get u some hoes
+[18:16:04] [Server thread/INFO]: <Kingz78> no thx
+[18:16:14] [Server thread/INFO]: <Marlxn> fr i dont want hoes eitherk,m i just want her ;--;
+[18:16:30] [Server thread/INFO]: <Kingz78> u want sam?
+[18:16:38] [Server thread/INFO]: <Marlxn> lamo no jstu a meme
+[18:16:41] [Server thread/INFO]: <Marlxn> i want noone
+[18:16:43] [Server thread/INFO]: <Kingz78> sure it is
+[18:16:56] [Server thread/INFO]: <Kingz78> haha, i won't tell
+[18:16:56] [Server thread/INFO]: <Marlxn> i cnt loves snayone until i love myself
+[18:17:02] [Server thread/INFO]: <Marlxn> lmaooo bri i dont lie
+[18:17:06] [Server thread/INFO]: <Kingz78> mhm
+[18:17:36] [Server thread/INFO]: <Marlxn> BRO STPO CBEING CRINGE
+[18:17:45] [Server thread/INFO]: <Kingz78> ahahahahaha
+[18:44:47] [Server thread/INFO]: <Marlxn> hows ist going son
+[18:45:02] [Server thread/INFO]: <Kingz78> oh how you would like to know aye :)
+[18:46:53] [Server thread/INFO]: <Marlxn> bruh
+[18:46:57] [Server thread/INFO]: <Kingz78> :)
+[18:47:00] [Server thread/INFO]: <Marlxn> agihtg lemme just go to tshe source
+[18:47:06] [Server thread/INFO]: <Kingz78> go on then
+[18:48:12] [Server thread/INFO]: <Marlxn> bruhhhhhhhhhhhh
+[18:48:19] [Server thread/INFO]: <Kingz78> what?
+[18:48:30] [Server thread/INFO]: <Marlxn> ohw how youwoudl like to knowayue ')
+[18:48:42] [Server thread/INFO]: <Kingz78> i already know :)
+[18:48:58] [Server thread/INFO]: <Marlxn> ur more scirnge that i thoguht possible
+[18:49:15] [Server thread/INFO]: <Kingz78> you clearing don't know whats going on lol
+[18:49:28] [Server thread/INFO]: <Kingz78> but sure, keep shit talking
+[18:49:29] [Server thread/INFO]: <Kingz78> idm
+[18:49:39] [Server thread/INFO]: Marlxn was slain by Spider
+[18:50:38] [Server thread/INFO]: <Marlxn> choccy milk
+[18:50:44] [Server thread/INFO]: <Kingz78> huh?
+[18:50:54] [Server thread/INFO]: <Marlxn> hienz
+[18:51:01] [Server thread/INFO]: <Kingz78> idk what ur on about
+[18:51:43] [Server thread/INFO]: Marlxn was blown up by Creeper
+[18:54:20] [Server thread/INFO]: <Marlxn> i really wish you develop some actual social skills
+[18:54:34] [Server thread/INFO]: <Kingz78> what made you able to type?
+[18:54:48] [Server thread/INFO]: <Marlxn> thte crineg shit ur saying to her
+[18:55:14] [Server thread/INFO]: <Kingz78> what did i say?
+[18:55:28] [Server thread/INFO]: <Marlxn> cringe shit
+[18:55:31] [Server thread/INFO]: <Kingz78> like?
+[18:55:36] [Server thread/INFO]: <Marlxn> ligma
+[18:55:39] [Server thread/INFO]: <Kingz78> kk
+[18:57:17] [Server thread/INFO]: <Kingz78> give me one example of a msg i sent
+[18:57:24] [Server thread/INFO]: <Kingz78> cuz ik this is all bs
+[18:57:27] [User Authenticator #159/INFO]: UUID of player sparklyanimals is 60dedf3b-5a8c-4587-887c-3e02d93ea17c
+[18:57:27] [Server thread/INFO]: sparklyanimals[/101.98.177.161:56853] logged in with entity id 982096 at (664.3607474151346, 112.0, 199.4397250028447)
+[18:57:27] [Server thread/INFO]: sparklyanimals joined the game
+[18:57:43] [Server thread/INFO]: <sparklyanimals> hi bye xox
+[18:57:45] [Server thread/INFO]: sparklyanimals lost connection: Disconnected
+[18:57:45] [Server thread/INFO]: sparklyanimals left the game
+[18:57:59] [Server thread/INFO]: <Marlxn> last thing im going to go off in this last message. you are owed nothing. you are socially awkward and you have no one able to blame. you have 0 idea how to communicate with girls and are honestly just coming off as a fucking weirdo. but go ahead
+[18:58:07] [Server thread/INFO]: <Marlxn> blame someone else for your lack of brain cells
+[18:58:23] [Server thread/INFO]: <Marlxn> stop bothering other people and latching on to the smallest attention a girl shows you
+[18:58:47] [Server thread/INFO]: <Marlxn> like i tried to help you bro
+[18:58:54] [Server thread/INFO]: <Marlxn> but holy shit youre stubborn and cringe
+[18:59:25] [Server thread/INFO]: <Marlxn> in the most serious manner possible, just leave sam alone. youre just so cringe and idk what you havent done that hasnt upset her
+[19:00:05] [Server thread/INFO]: <Marlxn> nothing to say now huh?
+[19:00:14] [Server thread/INFO]: <Marlxn> good that means you know im right
+[19:02:38] [Server thread/INFO]: <Marlxn> dont you dare try to flip this on her because literally everyone can tell how obvious youve been. youre not slick bro. go ahead and expose me but just know this is all on you bro. youve admitted youre socially awkward so dont act like youve played this wel
+[19:03:20] [Server thread/INFO]: <Marlxn> say something you fucking pussy
+[19:04:49] [Server thread/INFO]: Marlxn was shot by Skeleton
+[19:05:24] [Server thread/INFO]: <Marlxn> like i am SO down for her to hate me for this shit because youve already made her upset. believe it or not dude, you arent that great if at all
+[19:07:19] [Server thread/INFO]: <Marlxn> youre SO cringe dude, idk what you think going to go expose me is going to do. so what she knows im saying something? so what if i want her to not be upset by your cringe actions? atleast im doing to stop it you fucking retard
+[19:09:13] [Server thread/INFO]: <Marlxn> okay pussy be quiet
+[19:09:21] [Server thread/INFO]: <Marlxn> all it does is prove my point
+[19:10:13] [Server thread/INFO]: <Marlxn> take some fucking rejection dumbass
+[19:11:47] [Server thread/INFO]: Marlxn was slain by Kingz78
+[19:11:58] [Server thread/INFO]: <Marlxn> wow big man you killed, you sure got me good
+[19:12:01] [Server thread/INFO]: Marlxn lost connection: You are banned from this server
+[19:12:01] [Server thread/INFO]: Marlxn left the game
+[19:12:41] [User Authenticator #160/INFO]: UUID of player Marlxn is f36e460c-7742-4d18-b62f-cf5819d4fbbf
+[19:12:41] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@76dec744[id=f36e460c-7742-4d18-b62f-cf5819d4fbbf,name=Marlxn,properties={textures=[com.mojang.authlib.properties.Property@22b50d9b]},legacy=false] (/69.138.27.170:59984): You are banned from this server.
+Reason: Banned by an operator.
+[19:12:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@76dec744[id=f36e460c-7742-4d18-b62f-cf5819d4fbbf,name=Marlxn,properties={textures=[com.mojang.authlib.properties.Property@22b50d9b]},legacy=false] (/69.138.27.170:59984) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[19:45:18] [Server thread/INFO]: Kingz78 lost connection: Disconnected
+[19:45:18] [Server thread/INFO]: Kingz78 left the game
+[19:54:21] [User Authenticator #161/INFO]: UUID of player sparklyanimals is 60dedf3b-5a8c-4587-887c-3e02d93ea17c
+[19:54:21] [Server thread/INFO]: sparklyanimals[/101.98.177.161:57001] logged in with entity id 989312 at (664.3607474151346, 112.0, 199.4397250028447)
+[19:54:21] [Server thread/INFO]: sparklyanimals joined the game
+[19:56:18] [User Authenticator #162/INFO]: UUID of player Cakecrafteer is 809917da-7789-4bfb-ab93-2b324c6349d5
+[19:56:18] [Server thread/INFO]: Cakecrafteer[/202.89.159.13:51370] logged in with entity id 989750 at (341.944960045771, 63.0, -236.65327317115114)
+[19:56:18] [Server thread/INFO]: Cakecrafteer joined the game
+[19:56:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[19:57:07] [Server thread/WARN]: Cakecrafteer moved too quickly! 290.42509707513346,-1.639558300351247,-75.82488349900595
+[19:58:13] [User Authenticator #163/INFO]: UUID of player cuddlybear124 is 2cd82407-a31f-4db1-a2bf-d7f166976de7
+[19:58:13] [Server thread/INFO]: cuddlybear124[/158.140.224.125:50810] logged in with entity id 990734 at (667.3558305665481, 64.0, -272.18042397094683)
+[19:58:13] [Server thread/INFO]: cuddlybear124 joined the game
+[19:59:17] [Server thread/WARN]: Cakecrafteer moved too quickly! 96.00548609847499,20.0,373.4562680255001
+[20:05:16] [Server thread/INFO]: sparklyanimals lost connection: Disconnected
+[20:05:16] [Server thread/INFO]: sparklyanimals left the game
+[20:09:17] [Server thread/INFO]: cuddlybear124 lost connection: Disconnected
+[20:09:17] [Server thread/INFO]: cuddlybear124 left the game
