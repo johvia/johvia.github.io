@@ -20,11 +20,11 @@ h1 {
 }
 
 .overall_container{
-  border: 1px black solid;
+  /*border: 1px black solid;*/
 }
 
 .content_header {
-  border: 1px pink dashed;
+  /*border: 1px pink dashed;*/
   width:auto;
   height: auto;
   padding: 5vw 10vw 5vw 10vw;
@@ -38,6 +38,7 @@ a {
   width:fit-content;
   height:fit-content;
   font-size: 18pt;
+  font-weight:bold;
 }
 
 .s_panel {
@@ -50,6 +51,7 @@ a {
   text-align:center;
   margin:1vh 1vw;
   display: inline-block;
+  box-shadow: 0px 0px 3px black;
 }
 
 .s_panel h4 {
@@ -64,46 +66,25 @@ a {
 }
 
 .s_panel p {
-  font-size:12pt;
+  font-size:16pt;
 }
-/*yoinked code*/
-::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
+::-webkit-scrollbar {/*changes the width of the scrollbar*/
+  width: 5px;
+  background-image: url('assets/birb.jpg');
 }
-html,
-body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
+
+
+
+
+::-webkit-scrollbar-thumb {/*this customiszes the scroll bar thumb*/
+  background: #da2c43;
+  border-radius:10px;
+  height:10px;
+
+
 }
-.overflow {
-  overflow-x: hidden;
-  overflow-y: scroll;
-  background: #ededed;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  -webkit-overflow-scrolling: touch;
-}
-.thumb {
-  width: 68px;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cat.gif"),
-    linear-gradient(
-      90deg,
-      transparent,
-      magenta,
-      red,
-      yellow,
-      limegreen,
-      turquoise,
-      blue,
-      magenta,
-      transparent
-    );
-  background-position: center bottom, center -40px;
-  background-repeat: no-repeat, no-repeat;
-  background-size: contain, contain;
+
+
+::-webkit-scrollbar-thumb:hover {/*this slightly changes the scrollbar thumb when hovering a mouse over it*/
+  background: #b21f33;
 }
